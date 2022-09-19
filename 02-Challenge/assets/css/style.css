@@ -31,12 +31,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* unnecessary lines of code, muddies CSS */
-/*  
-.header div ul {
-    list-style-type: none;
-}
-*/
+/* removed .header div ul because it does not effect html structure and therefore an unnecessary lines of code that will muddy CSS */
 
 .header div ul li {
     display: inline-block;
