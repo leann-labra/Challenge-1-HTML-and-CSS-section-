@@ -1,29 +1,27 @@
+/* universal selector applies these properties to  entirety of page unless overridden by a different CSS property */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* background color of the body will be white */
 body {
     background-color: #d9dcd6;
 }
-
+/* the class selector header has the following properties */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* under the class selector header, the content in h1 will be displayed inline and at a font size of  48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/* Text in the header  portion will appear to the uppper right of the page in the following font properties */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,22 +29,22 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* removed .header div ul because it does not effect html structure and therefore an unnecessary lines of code that will muddy CSS */
 
+/* content listed in the header will appear in-line and slightly to the right */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* all items under the <a> selector will not have text decoration and will have a white color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* all items under <p> selector will have a font size of 16  px */
 p {
     font-size: 16px;
 }
-
+/* this selector controls the image  in the middle depitcting digital marketing meeting of the page and incorporates the following properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,12 +53,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* images for social media marketing and search engine optimization will be floated left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* image for online reputation management will be floated right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -75,7 +73,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
- 
+ /*all elements with this class selector will have a blue background, white font, the following font families, and the following margin, padding and height properties */
 .content-type {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,11 +82,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* all images found under the class selector content-type will have a max height of 200px */
 .content-type img {
     max-height: 200px;
 }
-
+/* all h2 under the content-type class will have a margin bottom and font-size of the following values */
 .content-type h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -107,29 +105,30 @@ p {
     color: #ffffff;
 }
 
+/* all text under the p element under the benefits class selector will have a margin bottom of 32 px and a font color of white */
 .benefit-type p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* all titles in h3 under the class selector benefit-type will have the following properties */
 .benefit-type h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* all images under the benefit-type class selector  will have the following properties */
 .benefit-type img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* the  text under the footer class will have the following properties */
 .footer {
-    margin-top: 20px
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* the title in the footer "Made with Horiseon" will have a font size of  20px */
 .footer h2 {
     font-size: 20px;
 }
